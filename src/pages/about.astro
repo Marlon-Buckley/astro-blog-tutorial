@@ -1,5 +1,6 @@
 ---
-import '../styles/global.css';
+import '../styles/global.css'
+import Footer from '../components/Footer.astro';
 
 const pageTitle = "Marlon Buckley";
 
@@ -71,5 +72,6 @@ const textCase = "uppercase"
     <ul>
       {skills.map((skill) => <li class="skill">{skill}</li>)}
     </ul>
+    <Footer />
   </body>
 </html>
