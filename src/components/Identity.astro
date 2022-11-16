@@ -1,0 +1,11 @@
+---
+const { firstName, country, occupation, hobbies } = Astro.props;
+---
+
+<ul>
+  <li>My name is {firstName}.</li>
+  <li>I live in {country} and I work as a {occupation}.</li>
+  {hobbies.length >= 2 && 
+    <li>Two of my hobbies are: {hobbies[0]} and {hobbies[1]}</li>
+  } 
+</ul>
