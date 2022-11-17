@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: My Third Blog Post
-author: Marlon
+author: Marlon B
 description: "I had some challenges, but asking in the community really helped!"
 image: 
     url: "https://astro.build/assets/blog/community-day/cover.jpg"
